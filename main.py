@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
     # Ορισμός φακέλων
-    IMAGES_DIR = "~/Projects/Left/COVID/images"
-    MASKS_DIR = "~/Projects/Left/COVID/masks"
+    IMAGES_DIR = "/COVID/images"
+    MASKS_DIR = "/COVID/masks"
 
     # Φόρτωση dataset
     train_ds, test_ds = load_segmentation_dataset(
